@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Description>Business Logic layer for the administration of the Asp.Net Core Identity and Duende IdentityServer</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Duende.IdentityServer.EntityFramework" Version="7.2.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Duende.IdentityServer.Admin.BusinessLogic.Shared\Duende.IdentityServer.Admin.BusinessLogic.Shared.csproj" />
+		<ProjectReference Include="..\Duende.IdentityServer.Admin.EntityFramework.Identity\Duende.IdentityServer.Admin.EntityFramework.Identity.csproj" />
+		<ProjectReference Include="..\Duende.IdentityServer.Admin.EntityFramework.Shared\Duende.IdentityServer.Admin.EntityFramework.Shared.csproj" />
+	</ItemGroup>
+
+</Project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
